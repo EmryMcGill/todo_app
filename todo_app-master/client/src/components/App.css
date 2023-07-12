@@ -38,10 +38,17 @@ input:focus {
 
 .title-input {
     font-size: 1.2em;
+    border-bottom: 2px solid;
+    border-color: black;
 }
 
 .desc-input {
     font-size: 0.9em;
+    color: grey;
+}
+
+.input-areas {
+    margin-top: .2em;
 }
 
 .input-wrapper {
@@ -103,29 +110,6 @@ input:focus {
     background-color: #7f5af0;
     color: white;
   }
-
-  .more-btn {
-    border: none;
-    border-radius: 0.2em;
-    text-align: center;
-    font-size: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 0.1em;
-    padding-bottom: 0.1em;
-    margin: 0.3em;
-    transition-duration: 0.4s;
-    border: 2px solid;
-    
-    color: #5a7df0;
-    background-color: white;
-}
-.more-btn:hover {
-    border-color: #5a7df0;
-    background-color: #5a7df0;
-    color: white;
-  }
-
 
 
 /* -------------TODO CARD --------------------*/
